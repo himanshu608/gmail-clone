@@ -1,0 +1,45 @@
+.Sendmail{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    background-color:rgb(0, 0, 0);
+    width: 450px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    border:1px solid grey
+}
+
+.Sendmail_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2px 20px;
+    color:rgb(199, 196, 196);
+}
+
+.Sendmail_button{
+    background-color:crimson !important;
+    color:whitesmoke !important;
+    font-size:medium !important;
+}
+
+.Sendmail_form form input{
+    height:30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    width: 100%;
+}
+
+.Sendmail_form form .Sendmail_message_input{
+    height:230px;
+}
+
+.Sendmail_options{
+    display: flex;
+    align-items: center;
+    padding:  10px;
+}

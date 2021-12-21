@@ -1,0 +1,42 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+    min-width:800px;
+}
+
+.header_left{
+    display:flex;
+    align-items: center;
+}
+
+.header_left img{
+    object-fit: contain;
+    height: 70px;
+}
+
+.header_middle{
+    display: flex;
+    align-items: center;
+    flex:0.7;
+    background-color:rgb(229, 226, 226);
+    padding: 8px;
+    border-radius: 10px;
+}
+.header_middle input{
+    background: transparent;
+    width: 100%;
+    padding:5px;
+    outline: none;
+    border: none;
+
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    
+}
